@@ -98,3 +98,10 @@ section.about p {
 .about-btn:hover {
   background-color: #a55f0e;
 }
+
+@media (width <= 600px) {
+  section.about h1 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+  }
+}
