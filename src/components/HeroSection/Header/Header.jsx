@@ -13,7 +13,7 @@ const Header = () => {
           <li><a href="#our-services">Service</a></li>
           <li><a href="#our-project">Project</a></li>
           <li><a href="/">Blog</a></li>
-          <li><a href="/">Contact</a></li>
+          <li><a href="#our-contact">Contact</a></li>
           <li><a className='register-btn' href="/">Register</a></li>
         </ul>
       </nav>

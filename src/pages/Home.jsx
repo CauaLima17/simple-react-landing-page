@@ -4,6 +4,7 @@ import Intro from '../components/HeroSection/Intro/Intro.jsx';
 import AboutSection from '../components/AboutSection/AboutSection.jsx';
 import OurServices from '../components/ServiceSection/OurServices.jsx';
 import OurProject from '../components/ProjectSection/OurProject.jsx';
+import Contact from '../components/ContactSection/Contact.jsx';
 
 import '../styles/Home.css';
 
@@ -18,6 +19,7 @@ const Home = () => {
       <AboutSection />
       <OurServices />
       <OurProject />
+      <Contact />
     </>
     
   )
