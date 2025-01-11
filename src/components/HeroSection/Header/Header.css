@@ -15,17 +15,33 @@
 
 .header .menu {
   display: flex;
-  gap: 12px;
+  gap: 24px;
 }
 
 .header .menu a {
+  position: relative;
   padding: 12px;
   color: #fff;
   transition: .3s;
 }
 
+.header .menu a::before {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  content: '';
+  height: 2px;
+  width: 0;
+  background-color: #DF7B09;
+  transition: .3s;
+}
+
 .header .menu a:hover {
   color: #DF7B09;
+}
+
+.header .menu a:hover::before {
+  width: 100%;
 }
 
 .header .register-btn {
