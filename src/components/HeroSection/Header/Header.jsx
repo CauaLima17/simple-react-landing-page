@@ -10,7 +10,7 @@ const Header = () => {
         <ul className='menu'>
           <li><a href="/" aria-current='page'>Home</a></li>
           <li><a href="#about-us">About</a></li>
-          <li><a href="/">Service</a></li>
+          <li><a href="#our-services">Service</a></li>
           <li><a href="/">Project</a></li>
           <li><a href="/">Blog</a></li>
           <li><a href="/">Contact</a></li>

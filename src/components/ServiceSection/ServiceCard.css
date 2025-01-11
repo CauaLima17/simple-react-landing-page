@@ -1,0 +1,30 @@
+.service-card {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+  gap: 24px;
+  background-color: #5B5B5B;
+  border-radius: 4px;
+  color: #fff;
+  flex: 1 1 300px;
+}
+
+.service-card > div {
+  display: flex;
+  justify-content: center;
+}
+
+.service-card > div img {
+  width: 64px;
+}
+
+.service-card a {
+  color: #fff;
+  text-decoration: underline ;
+}
+
+.service-card:nth-child(even) {
+  background-color: #DF7B09;
+}

@@ -1,0 +1,17 @@
+.our-services {
+  padding: 120px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.our-services > h1 {
+  margin-bottom: 60px;
+  font-size: 3rem;
+  color: #5B5B5B;
+}
+
+.our-services > div {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
