@@ -6,10 +6,10 @@ const Header = () => {
     <header className='header'>
       <h1 className='logo'><a href="/">Page Logo</a></h1>
 
-      <nav>
+      <nav aria-label='Navegação Principal'>
         <ul className='menu'>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">About</a></li>
+          <li><a href="/" aria-current='page'>Home</a></li>
+          <li><a href="#about-us">About</a></li>
           <li><a href="/">Service</a></li>
           <li><a href="/">Project</a></li>
           <li><a href="/">Blog</a></li>
