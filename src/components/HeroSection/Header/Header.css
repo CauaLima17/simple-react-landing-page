@@ -28,7 +28,7 @@
   transition: .3s;
 }
 
-.header .menu a::before::not(.register-btn) {
+.header .menu a:not(.register-btn)::before {
   position: absolute;
   bottom: 8px;
   left: 0;
