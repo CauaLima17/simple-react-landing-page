@@ -7,6 +7,7 @@
   max-width: 1400px;
   margin: 0 auto;
   border-radius: 0 0 32px 32px;
+  flex-wrap: wrap;
 }
 
 .header .logo a {
@@ -15,6 +16,8 @@
 
 .header .menu {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -25,7 +28,7 @@
   transition: .3s;
 }
 
-.header .menu a::before {
+.header .menu a::before::not(a.register-btn) {
   position: absolute;
   bottom: 8px;
   left: 0;
@@ -36,7 +39,7 @@
   transition: .3s;
 }
 
-.header .menu a:hover {
+.header .menu a:hover::not(a.register-btn) {
   color: #DF7B09;
 }
 
