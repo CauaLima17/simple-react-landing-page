@@ -5,6 +5,7 @@ import AboutSection from '../components/AboutSection/AboutSection.jsx';
 import OurServices from '../components/ServiceSection/OurServices.jsx';
 import OurProject from '../components/ProjectSection/OurProject.jsx';
 import Contact from '../components/ContactSection/Contact.jsx';
+import Footer from '../components/Footer/Footer.jsx';
 
 import '../styles/Home.css';
 
@@ -20,6 +21,7 @@ const Home = () => {
       <OurServices />
       <OurProject />
       <Contact />
+      <Footer />
     </>
     
   )
