@@ -1,0 +1,36 @@
+.intro-container {
+  display: grid;
+  place-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 180px 0;
+}
+
+.main-title {
+  font-size: 4rem;
+  margin-bottom: 32px;
+  color: #fff;
+}
+
+.main-paragrapy {
+  font-size: 1.2rem;
+  max-width: 32ch;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.intro-btn {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #DF7B09;
+  padding: 12px 64px;
+  font-size: 1.4rem;
+  transition: .3s;
+  justify-self: start;
+}
+
+.intro-btn:hover {
+  background-color: #a55f0e;
+}
