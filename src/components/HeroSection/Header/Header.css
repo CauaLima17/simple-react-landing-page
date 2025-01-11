@@ -28,7 +28,7 @@
   transition: .3s;
 }
 
-.header .menu a::before::not(a.register-btn) {
+.header .menu a::before::not(.register-btn) {
   position: absolute;
   bottom: 8px;
   left: 0;
@@ -39,11 +39,11 @@
   transition: .3s;
 }
 
-.header .menu a:hover::not(a.register-btn) {
+.header .menu a:hover:not(.register-btn) {
   color: #DF7B09;
 }
 
-.header .menu a:hover::before {
+.header .menu a:hover:before {
   width: 100%;
 }
 
@@ -59,4 +59,19 @@
 
 .header .register-btn:hover {
   background-color: #a55f0e;
+}
+
+@media (width <= 600px) {
+  .header .logo {
+    margin-bottom: 24px;
+  }
+
+  .header .menu a:not(a.register-btn) {
+    background-color: #7a7a7a;
+    border-radius: 4px;
+  }
+
+  .header .menu a:hover:not(a.register-btn) {
+    background-color: #5c5c5c;
+  }
 }

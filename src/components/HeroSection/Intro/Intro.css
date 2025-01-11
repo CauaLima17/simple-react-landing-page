@@ -3,7 +3,7 @@
   place-content: center;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 180px 0;
+  padding: 180px 24px;
 }
 
 .main-title {
@@ -33,4 +33,28 @@
 
 .intro-btn:hover {
   background-color: #a55f0e;
+}
+
+@media (width <= 1000px) {
+  .main-title {
+    font-size: 3rem;
+  }
+}
+
+@media (width <= 600px) {
+  .intro-container {
+    padding: 120px 24px;
+  }
+
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .main-paragrapy {
+    font-size: 1rem;
+  }
+
+  .intro-btn {
+    font-size: 1rem;
+  }
 }
